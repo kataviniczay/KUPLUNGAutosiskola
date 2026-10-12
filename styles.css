@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(218,219,195);
+    font-size: 16px;
+}
+
+.box {
+    background: #000;
+    background-color: rgb(16,41,33);
+    height: 110px;
+
+
+    mask: 
+    radial-gradient(19.8px at 50% calc(100% - 28px),#000 99%,#0000 101%) calc(50% - 28px) 0/56px 100%,
+    radial-gradient(19.8px at 50% calc(100% + 14px),#0000 99%,#000 101%) 50% calc(100% - 14px)/56px 100% repeat-x;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    padding-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(218,219,195);
+    font-size: 2rem;
+    margin-bottom: 19.8px;
+}
